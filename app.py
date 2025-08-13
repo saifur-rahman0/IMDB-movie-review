@@ -39,7 +39,9 @@ st.title("IMDB Movie Review Sentiment Analysis")
 st.write("Select a model, enter your review, and get the sentiment prediction.")
 
 model_choice = st.selectbox("Choose Model", list(models.keys()))
-review_text = st.text_area("Enter your review:")
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+review_text = st.text_area("**Enter your review:**")
 
 if st.button("Predict"):
     if review_text.strip():
