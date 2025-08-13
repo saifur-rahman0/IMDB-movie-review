@@ -1,4 +1,7 @@
 # IMDB Movie Review Sentiment Analysis
+#
+## Dataset
+Source: [IMDB Movie Reviews Dataset](https://www.kaggle.com/datasets/mantri7/imdb-movie-reviews-dataset)
 
 ## Project Overview
 This project performs sentiment analysis on IMDB movie reviews using three models: Logistic Regression, Naive Bayes, and a Deep Learning LSTM. The workflow includes data cleaning, feature engineering (TF-IDF and tokenization), model training, evaluation, and deployment.
