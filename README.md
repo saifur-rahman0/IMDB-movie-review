@@ -31,10 +31,10 @@ Recall: 0.8424
 F1-score: 0.8580
 
 ### LSTM (Bonus)
-Accuracy: 0.87
+Accuracy: 0.88
 Precision: 0.87
-Recall: 0.87
-F1-score: 0.87
+Recall: 0.89
+F1-score: 0.88
 
 ## Demo
 Run `app.py` with Streamlit to interactively test sentiment prediction. Choose a model, enter a review, and view the predicted sentiment and confidence.
